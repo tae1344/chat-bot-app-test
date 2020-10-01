@@ -1,9 +1,9 @@
 import React from 'react'
-import { List, Icon, Avatar } from 'antd';
+import { List, Icon, Avatar } from 'antd'; //css 프레임워크
 
 function Message(props) {
 
-    const AvatarSrc = props.who ==='bot' ? <Icon type="robot" /> : <Icon type="smile" />  
+    const AvatarSrc = props.who === 'bot' ? <Icon type="robot" /> : <Icon type="smile" />
 
     return (
         <List.Item style={{ padding: '1rem' }}>
